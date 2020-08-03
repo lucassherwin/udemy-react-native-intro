@@ -1,4 +1,4 @@
-# udemy-react-natvie-intro
+# udemy-react-native-intro
 
 https://www.udemy.com/course/the-complete-react-native-and-redux-course/
 
