@@ -7,6 +7,11 @@ const BoxScreen = () => {
             <Text style={styles.text1Style}>Child #1</Text>
             <Text style={styles.text2Style}>Child #2</Text>
             <Text style={styles.text3Style}>Child #3</Text>
+
+
+            <View style={styles.view1Style}/>
+            <View style={styles.view3Style}/>
+            <View style={styles.view2Style}/>
         </View>
     )
 }
@@ -20,17 +25,27 @@ const styles = StyleSheet.create({
     text1Style: {
         borderWidth: 3,
         borderColor: 'red',
-        flex: 4
     },
     text2Style: {
         borderWidth: 3,
         borderColor: 'red',
-        flex: 4
+        fontSize: 18,
+        ...StyleSheet.absoluteFillObject
     },
     text3Style: {
         borderWidth: 3,
         borderColor: 'red',
-        flex: 2
+    },
+    view1Style: {
+        height: 5,
+        width: 5,
+        backgroundColor: 'red'
+    },
+    view2Style: {
+        
+    },
+    view3Style: {
+        
     }
 })
 
